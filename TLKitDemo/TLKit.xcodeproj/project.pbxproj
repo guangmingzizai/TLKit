@@ -69,7 +69,6 @@
 		C2C2C9291F67A4850030FD2A /* TLShortcutMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C8EA1F67A4850030FD2A /* TLShortcutMethod.m */; };
 		C2C2C9321F67A5210030FD2A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C92B1F67A5210030FD2A /* NSData+Base64.m */; };
 		C2C2C9331F67A5210030FD2A /* NSData+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C92D1F67A5210030FD2A /* NSData+Encrypt.m */; };
-		C2C2C9341F67A5210030FD2A /* NSData+Gzip.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C92F1F67A5210030FD2A /* NSData+Gzip.m */; };
 		C2C2C9351F67A5210030FD2A /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C9311F67A5210030FD2A /* NSData+Hash.m */; };
 		C2C2C9381F67A6520030FD2A /* UINavigationItem+Fixed.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C9371F67A6520030FD2A /* UINavigationItem+Fixed.m */; };
 		C2C2C9441F67B0500030FD2A /* NSObject+Association.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C93F1F67B0500030FD2A /* NSObject+Association.m */; };
@@ -204,8 +203,6 @@
 		C2C2C92B1F67A5210030FD2A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		C2C2C92C1F67A5210030FD2A /* NSData+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encrypt.h"; sourceTree = "<group>"; };
 		C2C2C92D1F67A5210030FD2A /* NSData+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encrypt.m"; sourceTree = "<group>"; };
-		C2C2C92E1F67A5210030FD2A /* NSData+Gzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Gzip.h"; sourceTree = "<group>"; };
-		C2C2C92F1F67A5210030FD2A /* NSData+Gzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Gzip.m"; sourceTree = "<group>"; };
 		C2C2C9301F67A5210030FD2A /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
 		C2C2C9311F67A5210030FD2A /* NSData+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
 		C2C2C9361F67A6520030FD2A /* UINavigationItem+Fixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Fixed.h"; sourceTree = "<group>"; };
@@ -375,8 +372,6 @@
 				C2C2C92B1F67A5210030FD2A /* NSData+Base64.m */,
 				C2C2C92C1F67A5210030FD2A /* NSData+Encrypt.h */,
 				C2C2C92D1F67A5210030FD2A /* NSData+Encrypt.m */,
-				C2C2C92E1F67A5210030FD2A /* NSData+Gzip.h */,
-				C2C2C92F1F67A5210030FD2A /* NSData+Gzip.m */,
 				C2C2C9301F67A5210030FD2A /* NSData+Hash.h */,
 				C2C2C9311F67A5210030FD2A /* NSData+Hash.m */,
 			);
@@ -936,7 +931,6 @@
 				C2C2C91F1F67A4850030FD2A /* UITextView+LengthLimit.m in Sources */,
 				C2C2C9231F67A4850030FD2A /* UIView+Frame.m in Sources */,
 				C2C2C9201F67A4850030FD2A /* UITextView+Placeholder.m in Sources */,
-				C2C2C9341F67A5210030FD2A /* NSData+Gzip.m in Sources */,
 				C2C2C8EC1F67A4850030FD2A /* NSBundle+AppIcon.m in Sources */,
 				C2581E731F66A71F0029C3F4 /* main.m in Sources */,
 				C2C2C8EB1F67A4850030FD2A /* NSArray+SafeAccess.m in Sources */,
