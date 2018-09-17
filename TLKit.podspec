@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { "libokun" => "libokun@126.com" }
   s.homepage     = "https://github.com/tbl00c/TLKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.source       = { :git => "https://github.com/tbl00c/TLKit.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/guangmingzizai/TLKit.git", :tag => s.version }
 
   s.public_header_files = "TLKit/TLKit.h"
   s.source_files = "TLKit/TLKit.h"
@@ -20,6 +20,11 @@ Pod::Spec.new do |s|
   # 通用宏定义、快捷方法
   s.subspec 'TLShortcut' do |shortcut|
     shortcut.source_files = "TLKit/TLShortcut/*.{h,m}"
+  end
+
+  # 帮助类
+  s.subspec 'TLUtility' do |utility|
+    utility.source_files = "TLKit/TLUtility/*.{h,m}"
   end
 
   # 基础控件

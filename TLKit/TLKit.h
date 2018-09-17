@@ -12,6 +12,7 @@
 //MARK: 通用宏定义、快捷方法
 #import "TLShortcutMacros.h"
 #import "TLShortcutMethod.h"
+#import "TLDeviceInfo.h"
 
 //MARK: 分类
 #import "TLCategories.h"
