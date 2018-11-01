@@ -62,7 +62,6 @@
 		C2C2C9221F67A4850030FD2A /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C8D81F67A4850030FD2A /* UIView+Extensions.m */; };
 		C2C2C9231F67A4850030FD2A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C8DA1F67A4850030FD2A /* UIView+Frame.m */; };
 		C2C2C9241F67A4850030FD2A /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C8DC1F67A4850030FD2A /* UIView+Screenshot.m */; };
-		C2C2C9251F67A4850030FD2A /* UIView+Separator.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C8DE1F67A4850030FD2A /* UIView+Separator.m */; };
 		C2C2C9261F67A4850030FD2A /* UIView+TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C8E01F67A4850030FD2A /* UIView+TipView.m */; };
 		C2C2C9271F67A4850030FD2A /* UIViewController+TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C8E31F67A4850030FD2A /* UIViewController+TipView.m */; };
 		C2C2C9281F67A4850030FD2A /* UIWindow+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C2C8E61F67A4850030FD2A /* UIWindow+Extensions.m */; };
@@ -188,8 +187,6 @@
 		C2C2C8DA1F67A4850030FD2A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		C2C2C8DB1F67A4850030FD2A /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
 		C2C2C8DC1F67A4850030FD2A /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
-		C2C2C8DD1F67A4850030FD2A /* UIView+Separator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Separator.h"; sourceTree = "<group>"; };
-		C2C2C8DE1F67A4850030FD2A /* UIView+Separator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Separator.m"; sourceTree = "<group>"; };
 		C2C2C8DF1F67A4850030FD2A /* UIView+TipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TipView.h"; sourceTree = "<group>"; };
 		C2C2C8E01F67A4850030FD2A /* UIView+TipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TipView.m"; sourceTree = "<group>"; };
 		C2C2C8E21F67A4850030FD2A /* UIViewController+TipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TipView.h"; sourceTree = "<group>"; };
@@ -646,8 +643,6 @@
 				C2C2C8D81F67A4850030FD2A /* UIView+Extensions.m */,
 				C2C2C8DB1F67A4850030FD2A /* UIView+Screenshot.h */,
 				C2C2C8DC1F67A4850030FD2A /* UIView+Screenshot.m */,
-				C2C2C8DD1F67A4850030FD2A /* UIView+Separator.h */,
-				C2C2C8DE1F67A4850030FD2A /* UIView+Separator.m */,
 				C2C2C8DF1F67A4850030FD2A /* UIView+TipView.h */,
 				C2C2C8E01F67A4850030FD2A /* UIView+TipView.m */,
 			);
@@ -912,7 +907,6 @@
 				C2C2C9281F67A4850030FD2A /* UIWindow+Extensions.m in Sources */,
 				C2C2C8FF1F67A4850030FD2A /* NSString+Base64.m in Sources */,
 				C2C2C90F1F67A4850030FD2A /* UIControl+ActionBlocks.m in Sources */,
-				C2C2C9251F67A4850030FD2A /* UIView+Separator.m in Sources */,
 				C2C2C9291F67A4850030FD2A /* TLShortcutMethod.m in Sources */,
 				C2C2C91A1F67A4850030FD2A /* UINavigationController+Extensions.m in Sources */,
 				C2C2C9091F67A4850030FD2A /* NSURL+Params.m in Sources */,
